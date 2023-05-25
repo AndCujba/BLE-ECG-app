@@ -40,7 +40,7 @@ const PulseIndicator = () => {
     <Canvas style={styles.animationContainer}>
       <Path
         path={path}
-        color="blue"
+        color="red"
         style="stroke"
         strokeWidth={5}
         strokeCap="round"

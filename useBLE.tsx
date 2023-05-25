@@ -12,8 +12,8 @@ import DeviceInfo from 'react-native-device-info';
 
 import {atob} from 'react-native-quick-base64';
 
-const HEART_RATE_UUID = '00002A00-0000-1000-8000-00805F9B34FB';
-const HEART_RATE_CHARACTERISTIC = '0000FFE1-0000-1000-8000-00805F9B34FB';
+const HEART_RATE_UUID = '0000180d-0000-1000-8000-00805f9b34fb';
+const HEART_RATE_CHARACTERISTIC = '00002a37-0000-1000-8000-00805f9b34fb';
 
 const bleManager = new BleManager();
 

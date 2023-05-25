@@ -1,13 +1,5 @@
 import React, {FC, useCallback} from 'react';
-import {
-  FlatList,
-  ListRenderItemInfo,
-  Modal,
-  SafeAreaView,
-  Text,
-  StyleSheet,
-  TouchableOpacity,
-} from 'react-native';
+import {FlatList,ListRenderItemInfo,Modal,SafeAreaView,Text,StyleSheet,TouchableOpacity,} from 'react-native';
 import {Device} from 'react-native-ble-plx';
 
 type DeviceModalListItemProps = {
@@ -106,7 +98,7 @@ const modalStyle = StyleSheet.create({
     color: 'black',
   },
   ctaButton: {
-    backgroundColor: 'purple',
+    backgroundColor: '#007AFF',
     justifyContent: 'center',
     alignItems: 'center',
     height: 50,
